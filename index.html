@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rohit Kumar | Full Stack Developer</title>
-    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="icon" href="logo2.png" type="image/png" sizes="64x64">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
+    <script defer src="https://india.kenyt.ai/botapp/ChatbotUI/dist/js/bot-loader.js" type="text/javascript" data-bot="113712095"></script>
     <style>
         :root {
             --primary-dark: #1f0033;
@@ -247,7 +248,7 @@
         .profile-container {
             position: relative;
             width: 450px;
-            height: 450px;
+            height: 470px;
             z-index: 1;
             background-color: var(--primary-dark);
         }
@@ -258,7 +259,7 @@
             object-fit: cover;
             border-radius: 10px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            opacity: 0.75;
+            opacity: 0.7;
             /* filter: brightness(90%) contrast(110%); */
             max-width: 100%;
             border-radius: 12px; /* Optional rounded corners */
@@ -1135,9 +1136,9 @@
             width: 12px;
             height: 12px;
             border-radius: 50%;
-            background-color: rgba(255, 255, 255, 0.3);
+            background-color: rgba(255, 255, 255, 0.4);
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.4s ease;
         }
         
         .slide-dot.active {
@@ -1527,7 +1528,8 @@
                     </p>
                     <div class="home-btns">
                         <a href="#contact" class="btn btn-primary">Contact</a>
-                        <a href="ResumeMain3.pdf" class="btn btn-secondary">Download Resume</a>
+                        <a href="ResumeMain3.pdf" download="Rohit_Kumar_Resume.pdf" class="btn btn-secondary">Download Resume</a>
+
                     </div>
                 </div>
                 <div class="home-right fade-in">
@@ -2114,15 +2116,15 @@
 
         // <!--Start of Tawk.to Script-->
 
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/6800833e18cbc3190c1c17d3/1ip101bga';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
+        // var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        // (function(){
+        // var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        // s1.async=true;
+        // s1.src='https://embed.tawk.to/6800833e18cbc3190c1c17d3/1ip101bga';
+        // s1.charset='UTF-8';
+        // s1.setAttribute('crossorigin','*');
+        // s0.parentNode.insertBefore(s1,s0);
+        // })(); 
 
         // <!--End of Tawk.to Script-->
         
@@ -2396,7 +2398,7 @@
             stopSlideshow();
             slideInterval = setInterval(() => {
                 navigateSlide(1);
-            }, 5000);
+            }, 1500);
         }
         
         function stopSlideshow() {
